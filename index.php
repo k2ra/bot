@@ -15,7 +15,7 @@ if (checkToken())
 function checkToken() 
 {
   global $TOKEN;
-  $pathInfo = ltrim($_SERVER['PATH_INFO'] ?? '', '/');
+  $pathInfo = ltrim($_SERVER['PATH_INFO'] ? '', '/');
   return $pathInfo == $TOKEN;
 }
 
