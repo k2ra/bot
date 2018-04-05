@@ -24,7 +24,7 @@ switch ($message) {
 
 function sendMessage($chatId,$response){
 
-	$url = $GLOBAL[TELEGRAM].'/sendMessage?chat_id='.$chatId.'&parse_mode=HTML&text='.urlencode($response);
+	$url = $GLOBALS[TELEGRAM].'/sendMessage?chat_id='.$chatId.'&parse_mode=HTML&text='.urlencode($response);
 	echo $url;
 	file_get_contents($url);
 }
