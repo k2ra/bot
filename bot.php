@@ -10,6 +10,7 @@ $update = json_decode($update,TRUE);
 $chatId = $update["message"]["chat"]["id"];
 $chatType = $update["message"]["chat"]["type"];
 $message = $update ["message"]["text"];
+$nombre = $update ["message"]["chat"]["first_name"];
 echo $message;
 switch ($message) {
 	case '/search':
@@ -19,6 +20,11 @@ switch ($message) {
 	case '/hora':
 
 		$response = "hora de hoy";
+		sendMessage($chatId,$response);
+		break;
+	case 'hola':
+
+		$response = "hola como estas ".$nombre;
 		sendMessage($chatId,$response);
 		break;
 	
