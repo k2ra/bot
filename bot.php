@@ -16,6 +16,11 @@ switch ($message) {
 		$response = "esto es el comienzo";
 		sendMessage($chatId,$response);
 		break;
+	case '/hora':
+
+		$response = date();
+		sendMessage($chatId,$response);
+		break;
 	
 	default:
 		# code...
