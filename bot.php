@@ -18,7 +18,7 @@ switch ($message) {
 		break;
 	case '/hora':
 
-		$response = date();
+		$response = "hora de hoy";
 		sendMessage($chatId,$response);
 		break;
 	
