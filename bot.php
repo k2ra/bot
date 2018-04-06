@@ -52,7 +52,7 @@ function getCoin($message){
     $data = json_decode($html,true);
 
    	if(isset($data[0]['symbol']))
-    	return 'Moneda: '.$data[0]['symbol'].'\nPrecio_USD: '.$data[0]['price_usd'];
+    	return 'Moneda: '.$data[0]['symbol'].'     Precio_USD: '.$data[0]['price_usd'];
     else
     	return "false";
    // print_r($data[0]['symbol']);
