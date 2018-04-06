@@ -29,7 +29,7 @@ switch ($message) {
 		break;	
 	default:
 			//if (getCoin($message)){
-				$response = getCoin($message);
+				$response = "aqui";//getCoin($message);
 				sendMessage($chatId,$response);
 			/*}else{
 				$response = "uppss.. ".'"'.$message.'" no es un comando valido';
