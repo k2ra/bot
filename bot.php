@@ -26,16 +26,16 @@ switch ($message) {
 
 		$response = "hola como estas ".$nombre;
 		sendMessage($chatId,$response);
-		break;
-	case getCoin($message):
-
-		$response = getCoin($message);
-		sendMessage($chatId,$response);
-		break;
-	
+		break;	
 	default:
-			$response = getCoin($message);
-			sendMessage($chatId,$response);
+			if (getCoin($message)){
+				$response = getCoin($message);
+				sendMessage($chatId,$response);
+			}else{
+				$response = "uppss.. ".'"'.$message.'" no es un comando valido';
+				sendMessage($chatId,$response);
+			}
+
 		break;
 }
 
