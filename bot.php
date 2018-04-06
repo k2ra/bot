@@ -29,7 +29,7 @@ switch ($message) {
 		break;	
 	default:
 			if (getCoin($message)){
-				$response = "aqui";//getCoin($message);
+				$response = getCoin($message);
 				sendMessage($chatId,$response);
 			}else{
 				$response = "uppss.. ".'"'.$message.'" no es un comando valido';
@@ -51,8 +51,10 @@ function getCoin($message){
 	 $html= file_get_contents('https://api.coinmarketcap.com/v1/ticker/'.$moneda);
     $data = json_decode($html,true);
 
-   
+   	if(isset($data[0]['symbol']))
     	return 'Moneda: '.$data[0]['symbol'].'\n<br>Precio_USD: '.$data[0]['price_usd'];
+    else
+    	return false;
    // print_r($data[0]['symbol']);
 }
 
