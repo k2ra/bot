@@ -51,9 +51,7 @@ function getCoin($message){
 	 $html= file_get_contents('https://api.coinmarketcap.com/v1/ticker/'.$moneda);
     $data = json_decode($html,true);
 
-    if ($data[0]['error']=="id not found")
-    	return false;
-    else
+   
     	return 'Moneda: '.$data[0]['symbol'].'\n<br>Precio_USD: '.$data[0]['price_usd'];
    // print_r($data[0]['symbol']);
 }
