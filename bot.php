@@ -27,9 +27,14 @@ switch ($message) {
 		$response = "hola como estas ".$nombre;
 		sendMessage($chatId,$response);
 		break;
+	case getCoin($message):
+
+		$response = getCoin($message);
+		sendMessage($chatId,$response);
+		break;
 	
 	default:
-		# code...
+			sendMessage($chatId,$message);
 		break;
 }
 
@@ -38,6 +43,15 @@ function sendMessage($chatId,$response){
 	$url = $GLOBALS[TELEGRAM].'/sendMessage?chat_id='.$chatId.'&parse_mode=HTML&text='.urlencode($response);
 	echo $url;
 	file_get_contents($url);
+}
+
+function getCoin($message){
+	$moneda = strtolower($message);
+	 $html= file_get_contents('https://api.coinmarketcap.com/v1/ticker/'.$moneda);
+    $data = json_decode($html,true);
+
+    return 'Moneda: '.$data[0]['symbol'].'\n Precio_USD: '.$data[0]['price_usd'];
+   // print_r($data[0]['symbol']);
 }
 
 //echo "funciona";
