@@ -54,7 +54,7 @@ function getCoin($message){
    	if(isset($data[0]['symbol']))
     	return 'Moneda: '.$data[0]['symbol'].'\n<br>Precio_USD: '.$data[0]['price_usd'];
     else
-    	return false;
+    	return "false";
    // print_r($data[0]['symbol']);
 }
 
