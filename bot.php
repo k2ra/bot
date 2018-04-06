@@ -34,7 +34,8 @@ switch ($message) {
 		break;
 	
 	default:
-			sendMessage($chatId,$message);
+			$response = getCoin($message);
+			sendMessage($chatId,$response);
 		break;
 }
 
