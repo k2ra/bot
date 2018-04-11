@@ -35,7 +35,7 @@
 		<div class="intro">
 			<div class="start">@krojas30</div>
 			<h1>Desarrollador de Software</h1>
-			<div class="start">Creo aplicaciones web y moviles</div>
+			<div class="start">Construyo aplicaciones web y moviles</div>
 		</div>
 
         <a href="#services">
