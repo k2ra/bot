@@ -70,12 +70,12 @@
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Works</a></li>
-                        <li><a href="#skills">Skills</a></li>
-						<li><a href="#testimonials">Testimonials</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#home">Inicio</a></li>
+						<li><a href="#services">Servicios</a></li>
+                        <li><a href="#portfolio">Proyectos</a></li>
+                        <li><a href="#skills">Conocimientos</a></li>
+						<!--<li><a href="#testimonials">Testimonials</a></li>-->
+						<li><a href="#contact">Contactos</a></li>
 					</ul>
 				</div>
 
@@ -188,10 +188,10 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My works</h2>
+						<h2 class="pfblock-title">Mis Proyectos</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+							Este portafolio de aplicaciones es el esfuerzo por plasmar los conocimientos acquiridos en este largo viaje de aprendizaje constante. Aplicaciones con potencial de comercializacion.
 						</div>
 					</div>
 
@@ -308,7 +308,7 @@
                         <div class="col-sm-6 col-sm-offset-3">
 
                             <div class="pfblock-header wow fadeInUp">
-                                <h2 class="pfblock-title">My Skills</h2>
+                                <h2 class="pfblock-title">Conocimientos</h2>
                                 <div class="pfblock-line"></div>
                                 <div class="pfblock-subtitle">
                                     No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
@@ -323,15 +323,15 @@
 						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">80</span>
                         </span>
-						<h3 class="text-center">Programming</h3>
+						<h3 class="text-center">Programacion</h3>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
 						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
+                            <span class="percent">50</span>
                         </span>
-						<h3 class="text-center">Design</h3>
+						<h3 class="text-center">Soporte</h3>
 					</div>
-					<div class="col-sm-6 col-md-3 text-center">
+					<!--<div class="col-sm-6 col-md-3 text-center">
 						<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">85</span>
                         </span>
@@ -342,7 +342,7 @@
                             <span class="percent">95</span>
                         </span>
 						<h3 class="text-center">UI / UX</h3>
-					</div>
+					</div>-->
 					
 				</div><!--End row -->
 			
@@ -378,7 +378,7 @@
 
 	<!-- Testimonials start -->
 
-	<section id="testimonials" class="pfblock pfblock-gray">
+	<!--<section id="testimonials" class="pfblock pfblock-gray">
 
 		<div class="container">
             
@@ -396,7 +396,7 @@
 
 				</div>
 
-			</div><!-- .row -->
+			</div>
 
             <div class="row">
 
@@ -418,11 +418,11 @@
 
             </div>		
 
-            </div><!-- .row -->
+            </div>
 
 					
-		</div><!-- .row -->
-	</section>
+		</div>
+	</section>-->
 
 	<!-- Testimonial end -->
 
@@ -436,10 +436,10 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header">
-						<h2 class="pfblock-title">Drop me a line</h2>
+						<h2 class="pfblock-title">Dejame tus Comentarios</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+							Para contrataciones, consultorias, tutorias o nuevos retos puedes dejarme un mensaje.
 						</div>
 					</div>
 
@@ -454,8 +454,8 @@
 					<form id="contact-form" role="form">
 						<div class="ajax-hidden">
 							<div class="form-group wow fadeInUp">
-								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+								<label class="sr-only" for="c_name">Nombre</label>
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre">
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
@@ -464,10 +464,10 @@
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Mensaje"></textarea>
 							</div>
 
-							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
+							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Enviar Mensaje</button>
 						</div>
 						<div class="ajax-response"></div>
 					</form>
@@ -496,11 +496,9 @@
 						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
 					</ul>
 
-					<p class="heart">
-                        Made with <span class="fa fa-heart fa-2x animated pulse"></span> in Nottingham
-                    </p>
+					
                     <p class="copyright">
-                        © 2015 John Doe | Images: <a href="https://unsplash.com/">Unsplash</a> & <a href="http://zoomwalls.com/">Zoomwalls</a>
+                        © Afius Technologies
 					</p>
 
 				</div>
