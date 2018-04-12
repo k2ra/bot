@@ -96,7 +96,7 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">This is what I do</h2>
+						<h2 class="pfblock-title">Lo que hago</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
 							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
