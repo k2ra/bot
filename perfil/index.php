@@ -160,10 +160,10 @@
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="assets/images/item-2.jpg" alt="img01"/>
+                            <img src="assets/images/encuesta.png" alt="img01"/>
                             <figcaption>
-                                <h2>Funny <span>Tortoise</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Encuesta</h2>
+                                <p>Aplicacion para la creacion y evaluacion de encuestas laborales</p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -177,48 +177,6 @@
                             <img src="assets/images/item-3.jpg" alt="img01"/>
                             <figcaption>
                                 <h2>The <span>Hat</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-4.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Bang <span>Bang</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-5.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Crypton <span>Dude</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="assets/images/item-6.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Don't <span>Poke</span></h2>
                                 <p>Lily likes to play with crayons and pencils</p>
                             </figcaption>			
                         </figure>
