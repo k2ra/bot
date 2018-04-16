@@ -7,14 +7,14 @@ if(isset($_POST['message'])){
 	$message = $_POST['message'];
     
 	
-	$to      = 'kevinrojas.a30@gmail.com';
+	$to      = 'kevin_rojas30@hotmail.com';
 	$subject = 'Site Contact Form';
 
 	$headers = 'From: '. $email . "\r\n" .
     'Reply-To: '. $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-	$status = mail($to, $subject, $message, $headers);
+	$status = mail($to, $subject, $message);
 
 	if($status == TRUE){	
 		$res['sendstatus'] = 'done';

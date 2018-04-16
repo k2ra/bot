@@ -16,7 +16,7 @@
     
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-	<!--<link href="views/app/css/adicionales.css" rel="stylesheet" media="screen">-->
+	<link href="views/app/css/adicionales.css" rel="stylesheet" media="screen">
     
     <script src="assets/js/modernizr.custom.js"></script>
        
@@ -148,7 +148,7 @@
                         <figure class="effect-bubba">
                             <img src="assets/images/cotiza.png" alt="img01"/>
                             <figcaption>
-                                <h2>Cotiza</h2>
+                                <h2><span>Cotiza</span></h2>
                                 <p>Aplicacion para realizacion de cotizaciones </p>
                             </figcaption>			
                         </figure>
@@ -162,7 +162,7 @@
                         <figure class="effect-bubba">
                             <img src="assets/images/encuesta.png" alt="img01"/>
                             <figcaption>
-                                <h2>Encuesta</h2>
+                                <h2><span>Encuesta</span></h2>
                                 <p>Aplicacion para la creacion y evaluacion de encuestas laborales</p>
                             </figcaption>			
                         </figure>
@@ -174,10 +174,10 @@
             
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="assets/images/item-3.jpg" alt="img01"/>
+                            <img src="assets/images/telegram-bot.jpg" alt="img01" style="width: 360px" />
                             <figcaption>
-                                <h2>The <span>Hat</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2><span>KRbot</span></h2>
+                                <p>Bot de telegram para consultas sobre Criptomonedas y demas</p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -209,7 +209,7 @@
                                 <h2 class="pfblock-title">Conocimientos</h2>
                                 <div class="pfblock-line"></div>
                                 <div class="pfblock-subtitle">
-                                    No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+                                   Mis conocimientos adquiridos son una combinacion de experiencia laboral, experimentos universitarios y proyectos propios.
                                 </div>
                             </div>
 
@@ -258,14 +258,14 @@
 			<div class="row">
 
 				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
+					<h2 class="wow slideInRight" data-wow-delay=".1s">Listo para empezar?</h2>
 					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						I'm available for freelance projects.
+						Estoy disponible para proyectos freelance.
 					</div>
 				</div>
 
 				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="#contact" class="btn btn-lg">Hire Me</a>
+					<a href="#contact" class="btn btn-lg">Contactame</a>
 				</div>
 
 			</div><!-- .row -->
@@ -387,11 +387,10 @@
 				<div class="col-sm-12">
 
 					<ul class="social-links">
-						<li><a href="index.html#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+						
+						<li><a href="https://twitter.com/krojas30" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://github.com/k2ra" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-github"></i></a></li>
+						<li><a href="mailto:kevinrojas.a30@gmail.com" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
 					</ul>
 
 					
