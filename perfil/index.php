@@ -16,7 +16,7 @@
     
 	<!-- Custom styles CSS -->
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-	<link href="views/app/css/adicionales.css" rel="stylesheet" media="screen">
+	<!--<link href="views/app/css/adicionales.css" rel="stylesheet" media="screen">-->
     
     <script src="assets/js/modernizr.custom.js"></script>
        
@@ -146,10 +146,10 @@
                     
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
-                            <img src="assets/images/item-1.jpg" alt="img01"/>
+                            <img src="assets/images/cotiza.png" alt="img01"/>
                             <figcaption>
-                                <h2>Crazy <span>Shark</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
+                                <h2>Cotiza</h2>
+                                <p>Aplicacion para realizacion de cotizaciones </p>
                             </figcaption>			
                         </figure>
                     </div>
@@ -263,26 +263,26 @@
 						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">80</span>
                         </span>
-						<h3 class="text-center">Programacion</h3>
+						<h3 class="text-center">PHP</h3>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
 						<span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">60</span>
                         </span>
-						<h3 class="text-center">Soporte</h3>
-					</div>
-					<!--<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">85</span>
-                        </span>
-						<h3 class="text-center">Marketing</h3>
+						<h3 class="text-center">JS / JQuery</h3>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">95</span>
+						<span data-percent="75" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">75</span>
                         </span>
-						<h3 class="text-center">UI / UX</h3>
-					</div>-->
+						<h3 class="text-center">Java</h3>
+					</div>
+					<div class="col-sm-6 col-md-3 text-center">
+						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">90</span>
+                        </span>
+						<h3 class="text-center">HTML5 / CSS3</h3>
+					</div>
 					
 				</div><!--End row -->
 			
