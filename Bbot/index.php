@@ -30,10 +30,23 @@
 	<div style="float: left;">
 		
 		<?php
-			$url = 'https://api.binance.com/api/v1/klines?symbol=BNBBTC&interval=4h&limit=200';
-			$html = file_get_contents($url);
-			$data = json_decode($html,true); 
-			//print_r($data);
+			function prueba($simbolo){
+
+				$url = 'https://api.binance.com/api/v1/klines?symbol='.$simbolo.'&interval=4h&limit=200';
+				$html = file_get_contents($url);
+				$data = json_decode($html,true); 
+				//print_r($data);
+				$sesiones=1;
+					$a=0;
+					foreach ($data as $value) {
+						
+						$a =($a+$value[4]);
+						$media = $a/$sesiones;
+					
+						$sesiones+=1;
+					}
+				return $media;
+			}
 		?>
 
 				<table class="table table-bordered  projects" style="border-style: solid;" id="tblkline">
@@ -54,7 +67,7 @@
 			<?php
 				$sesiones=1;
 				$a=0;
-				foreach ($data as $value) {
+				/*foreach ($data as $value) {
 					
 					$a =($a+$value[4]);
 					$media = $a/$sesiones;
@@ -66,7 +79,7 @@
 				  echo '<td>'.$value[5].'</td>';
 				  echo '<td>'.number_format($media, 8).'</td>';
 					$sesiones+=1;
-				}
+				}*/
 
 			?>
 			      </tbody>
@@ -91,22 +104,26 @@
 			          <th>prevClosePrice</th>
 			          <th>lastPrice</th>
 			          <th>quoteVolume</th>
-			          
+			          <th>SMA</th>
 			        </thead>
 			          <tbody>
 		<?php
 
 			foreach ($data24h as $valor) {
 				//	echo (substr($valor['symbol'], strlen($valor['symbol'])-3,strlen($valor['symbol'])));
-				if($valor['priceChangePercent'] > 0 && substr($valor['symbol'], strlen($valor['symbol'])-3,strlen($valor['symbol']))=="BTC"){
+				if($valor['priceChangePercent'] > 2 && $valor['priceChangePercent'] < 12 && substr($valor['symbol'], strlen($valor['symbol'])-3,strlen($valor['symbol']))=="BTC" && round($valor['quoteVolume'])>900 ){
+					if( $valor['lastPrice'] > number_format(prueba($valor['symbol']),8)){
 
-				  echo '<tr><td><b>'.$valor['symbol'].'</b></td>';
-				  echo '<td>'.$valor['priceChange'].'</td>';
-				  echo '<td>'.$valor['priceChangePercent'].'</td>';
-				  echo '<td>'.$valor['prevClosePrice'].'</td>';
-				  echo '<td>'.$valor['lastPrice'].'</td>';
-				  echo '<td>'.round($valor['quoteVolume']).'</td>';
-				
+						  echo '<tr><td><b>'.$valor['symbol'].'</b></td>';
+						  echo '<td>'.$valor['priceChange'].'</td>';
+						  echo '<td>'.$valor['priceChangePercent'].'</td>';
+						  echo '<td>'.$valor['prevClosePrice'].'</td>';
+						  echo '<td>'.$valor['lastPrice'].'</td>';
+						  echo '<td>'.round($valor['quoteVolume']).'</td>';
+						  echo '<td>'.number_format(prueba($valor['symbol']),8).'</td>';
+						
+					}
+
 				}
 			}
 
