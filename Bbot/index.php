@@ -36,7 +36,7 @@
 			//print_r($data);
 		?>
 
-				<table class="table table-bordered  projects" style="border-style: solid;">
+				<table class="table table-bordered  projects" style="border-style: solid;" id="tblkline">
 			        <thead>
 			          <th>OpenTime</th>
 			          <th>Open</th>
@@ -83,7 +83,7 @@
 			$data24h = json_decode($html2,true); 
 		?>
 
-			<table class="table table-bordered  projects" style="border-style: solid;">
+			<table class="table table-bordered  projects" style="border-style: solid;" id="tblticker">
 			        <thead>
 			          <th>symbol</th>
 			          <th>priceChange</th>
@@ -132,7 +132,8 @@
 
       <script src="views/assets/vendors/iCheck/icheck.min.js"></script>
       <script src="views/assets/vendors/progressbar/dist/progressbar.min.js"></script>
-	  <script src="views/app/js/encuesta.js"></script>
+      <script src="views/assets/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+	  <script src="views/app/js/bbot.js"></script>
       <!--<script src="views/js/progress/progresion.js"></script> -->
 </body>
 
